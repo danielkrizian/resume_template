@@ -5,9 +5,19 @@
 *-Ex.R
 # RStudio files
 .Rproj.user/
-
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
 .Rproj.user
 resume_template.Rproj
+.RData
+Lato-Black.ttf
+Lato-BlackItalic.ttf
+Lato-Bold.ttf
+Lato-BoldItalic.ttf
+Lato-Hairline.ttf
+Lato-HairlineItalic.ttf
+Lato-Light.ttf
+Lato-LightItalic.ttf
+Lato-Regular.ttf
+Lato-RegularItalic.ttf

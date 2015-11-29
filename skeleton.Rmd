@@ -1,0 +1,126 @@
+---
+output:
+  pdf_document:
+    template: cv_template.tex
+    keep_tex: true
+    latex_engine: xelatex
+    md_extensions: +yaml_metadata_block
+---
+
+---
+person:
+  first_name: John
+  last_name: Smith
+  postnoms:
+  title: 
+  headline: junior business analyst
+---
+
+---
+aside:
+  - section: programming
+    content: |
+      \heartify{R} SQL \heartify{kdb+/q}  
+      Neo4j VBA \LaTeX  
+      SOAP REST XML  
+      Bloomberg+API FactSet RiskMetrics Backstop Pentaho 
+      **conversant:** Python JavaScript HTML 
+      **interested:** \mbox{C++ Linux} 
+  - section: skills
+    content: |
+      math maturity  
+      statistics  
+      machine learning  
+      hedge fund selection
+      \mbox{quant trading}
+  - section: languages
+    content: |
+    	english mother tongue
+    	spanish \& italian fluency
+  - section: contact
+    content: |
+      123 Broadway  
+			City, State 12345  
+			Country
+  - item: tel
+    content: |
+    	+0 (000) 111 1111  
+    	+0 (000) 111 1112
+  - item: links
+    content: |
+      \href{mailto:john@smith.com}{john@smith.com}
+      \href{http://www.smith.com}{http://www.smith.com}
+      [fb://jsmith](http://facebook.com/johnsmith)
+---
+
+---
+main:
+  - section: experience
+  - subsection: Full Time
+  - entrylist:
+  
+      - when: Now 2012
+        what: 1\textsuperscript{st} Year Analyst
+        who: LEHMAN BROTHERS
+        where: Los Angeles, California
+        desc: |
+           Developed spreadsheets for risk analysis on exotic derivatives on a 
+           wide array of commodities (ags, oils, precious and base metals), 
+           managed blotter and secondary trades on structured notes, 
+           liaised with Middle Office, Sales and Structuring for bookkeeping.  
+           Detailed achievements:  
+           
+             * Learned how to make amazing coffee
+             * Finally determined the reason for \textsc{PC LOAD LETTER}:
+             	
+           	   * Paper jam
+           		 * Software issues:  
+           		   * Word not sending the correct data to printer
+           		   * Windows trying to print in letter format
+           		 * Coffee spilled inside printer
+           	 * Broke the office record for number of kitten pictures in cubicle
+           	 * Learned how to make more amazing coffee on a new machine
+        
+  - subsection: Part Time
+  - entrylist:
+  
+      - who: LEHMAN BROTHERS
+        what: Summer Intern
+        when: 2011 2010
+        where: London, United Kingdom
+        desc: |
+          Received pre-placed offer from the Exotics Trading Desk as a result of
+          very positive reviews. Rated "truly distinctive" for Analytical Skills
+          and Teamwork.
+        
+      - who: Buy More
+        what: Computer Repair Specialist
+        when: 2009 2008
+        where: Burbank, California
+        desc: |
+          Worked in the Nerd Herd and helped to solve computer problems by asking
+          customers to turn their computers off and on again.
+        
+  - section: education
+  - entrylist:
+      - who: The University of California, Berkeley
+        what: Masters of Commerce
+        when: 2012 2011
+        desc: |
+        	_Master thesis:_ Money Is The Root Of All Evil -- Or Is It?  
+        	This thesis explored the idea that money has been the cause of untold 
+        	anguish and suffering in the world. I found that it has, in fact, not.
+          
+      - who: The University of California, Berkeley
+        what: Bachelor of Business Studies
+        when: 2008 2007
+        desc: |
+        	Specialization in Commerce
+---
+
+# interests
+
+\textbf{professional:} data analysis, company profiling, risk analysis, economics,
+web design, web app creation, software design, marketing 
+\textbf{personal:} piano, chess, cooking, dancing, running
+
